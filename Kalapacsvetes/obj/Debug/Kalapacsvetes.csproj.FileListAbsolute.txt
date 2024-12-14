@@ -1,0 +1,7 @@
+C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\bin\Debug\Kalapacsvetes.exe.config
+C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\bin\Debug\Kalapacsvetes.exe
+C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\bin\Debug\Kalapacsvetes.pdb
+C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.csproj.AssemblyReference.cache
+C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.csproj.CoreCompileInputs.cache
+C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.exe
+C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.pdb
