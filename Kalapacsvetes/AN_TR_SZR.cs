@@ -67,6 +67,7 @@ namespace Kalapacsvetes
                     }
                 }
             }
+            Console.WriteLine("\nENTER-re leáll");
             Console.ReadLine();
         }
     }
