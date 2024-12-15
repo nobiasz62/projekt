@@ -5,3 +5,10 @@ C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapac
 C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.csproj.CoreCompileInputs.cache
 C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.exe
 C:\Users\norbi\OneDrive\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.pdb
+C:\Users\szent\Documents\GitHub\projekt\Kalapacsvetes\bin\Debug\Kalapacsvetes.exe.config
+C:\Users\szent\Documents\GitHub\projekt\Kalapacsvetes\bin\Debug\Kalapacsvetes.exe
+C:\Users\szent\Documents\GitHub\projekt\Kalapacsvetes\bin\Debug\Kalapacsvetes.pdb
+C:\Users\szent\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.csproj.AssemblyReference.cache
+C:\Users\szent\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.csproj.CoreCompileInputs.cache
+C:\Users\szent\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.exe
+C:\Users\szent\Documents\GitHub\projekt\Kalapacsvetes\obj\Debug\Kalapacsvetes.pdb

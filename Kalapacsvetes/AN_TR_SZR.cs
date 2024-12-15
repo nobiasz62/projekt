@@ -14,22 +14,44 @@ namespace Kalapacsvetes
             string beolvas = "kalapacsvetes.txt";
             List<Sportolo> sportolok = new List<Sportolo>();
 
-            //Fájl beolvasása
-            StreamReader sr = new StreamReader(beolvas);
-            while (!sr.EndOfStream)
-            { 
-                string sor = sr.ReadLine();
-                string[] adatok = sor.Split(';');
-                int helyezes = int.Parse(adatok[0]);
-                double eredmeny = Convert.ToDouble(adatok[1]);
-                string nev = adatok[2];
-                string orszagkod = adatok[3];
-                string helyszin = adatok[4];
-                DateTime datum  = Convert.ToDateTime(adatok[5]);
-                Sportolo sportolo = new Sportolo(helyezes, eredmeny, nev, orszagkod, helyszin, datum);
-                sportolok.Add(sportolo);
+            // Fájl beolvasása
+            using (StreamReader sr = new StreamReader(beolvas))
+            {
+                while (!sr.EndOfStream) // Amíg nem érünk a fájl végére
+                {
+                    string[] adatok = sr.ReadLine().Split(';'); // Egy sor beolvasása a fájlból és az adatok szétválasztása
+
+                    // Ellenőrizzük, hogy a sor 6 elemet tartalmaz-e és konvertálhatóak-e a megfelelő típusokra
+                    if (adatok.Length == 6 &&
+                        int.TryParse(adatok[0], out int helyezes) &&
+                        double.TryParse(adatok[1], out double eredmeny) &&
+                        DateTime.TryParse(adatok[5], out DateTime datum)) // Ez a blokk akkor fut le, ha mindhárom feltétel igaz.
+                    {
+                        sportolok.Add(new Sportolo(helyezes, eredmeny, adatok[2], adatok[3], adatok[4], datum)); // Új Sportolo objektum létrehozása és hozzáadása a listához
+                    }
+                }
             }
-            sr.Close();
+
+            // d. Statisztika készítése
+            double atlag = 0;
+            double max = double.MinValue;
+            double min = double.MaxValue;
+            double osszeg = 0;
+
+            foreach (var sportolo in sportolok)
+            {
+                osszeg += sportolo.Eredmeny;
+                if (sportolo.Eredmeny > max) max = sportolo.Eredmeny;
+                if (sportolo.Eredmeny < min) min = sportolo.Eredmeny;
+            }
+            atlag = osszeg / sportolok.Count;
+
+            Console.WriteLine($"Átlag: {atlag}");
+            Console.WriteLine($"Maximum: {max}");
+            Console.WriteLine($"Minimum: {min}");
+            Console.WriteLine($"Összeg: {osszeg}");
+
+            
         }
     }
 }
