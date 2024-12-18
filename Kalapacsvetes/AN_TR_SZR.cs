@@ -15,7 +15,7 @@ namespace Kalapacsvetes
             List<Sportolo> sportolok = new List<Sportolo>();
 
             // Fájl beolvasása
-            using (StreamReader sr = new StreamReader(beolvas))
+            StreamReader sr = new StreamReader(beolvas);
             {
                 while (!sr.EndOfStream) // Amíg nem érünk a fájl végére
                 {
@@ -55,7 +55,7 @@ namespace Kalapacsvetes
             Console.WriteLine("Adjon meg egy minimális eredményt:");
             double minEredmeny = double.Parse(Console.ReadLine());
 
-            using (StreamWriter sw = new StreamWriter("szurt_eredmenyek.txt"))
+            StreamWriter sw = new StreamWriter("szurt_eredmenyek.txt");
             {
                 foreach (var sportolo in sportolok)
                 {
