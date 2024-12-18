@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A világ legjobb férfi kalapácsvetői</title>
+    <title>Magyarország egyik legjobb kalapacsvetői</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,21 +12,17 @@
         <h1>A világ legjobb férfi kalapácsvetői</h1>
         <nav>
             <ul>
-                <li><a href="#home">Kezdőlap</a></li>
-                <li><a href="#ranking">Ranglista</a></li>
-                <li><a href="#events">Versenyek</a></li>
+                <li><a href="index.html">Kezdőlap</a></li>
                 <li><a href="#stats">Statisztikák</a></li>
-                <li><a href="#records">Rekordok</a></li>
+                <li><a href="rekord.html">Rekordok</a></li>
                 <li><a href="#contact">Kapcsolat</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Főoldal -->
+<div class="kozep">    
     <section id="home">
-        <div class="hero">
-            <img src="./img/1.jpg" alt="Kalapácsvető akcióban">
-        </div>
         <p>
             Ez az oldal bemutatja a világ és Magyarország legjobb férfi kalapácsvetőit, rangsorokkal, statisztikákkal és részletes eredményekkel.
         </p>
@@ -37,74 +33,27 @@
                     <img src="img/2.jpg" alt="Pars Krisztián">
                     <p><strong>Atléta neve:</strong> Pars Krisztián</p>
                     <p><strong>Legjobb dobás:</strong> 82.69m</p>
+                    <p><strong>Év:</strong>42</p>
                 </div>
                 <div class="athlete">
                     <img src="img/3.jpg" alt="Kiss Balázs">
                     <p><strong>Atléta neve:</strong> Kiss Balázs</p>
                     <p><strong>Legjobb dobás:</strong> 83.00m</p>
+                    <p><strong>Év:</strong>52</p>
                 </div>
                 <div class="athlete">
-                    <img src="img/4.jpg" alt="Halász Bence">
+                    <img src="img/4.jpeg" alt="Halász Bence">
                     <p><strong>Atléta neve:</strong> Halász Bence</p>
                     <p><strong>Legjobb dobás:</strong> ????</p>
+                    <p><strong>Év:</strong>27</p>
+                    
                 </div>
             </div>
         </div>
     </section>
+</div>
 
-    <!-- Ranglista -->
-    <section id="ranking">
-        <h2>Ranglista</h2>
-        <form>
-            <label for="filter-year">Év:</label>
-            <input type="number" id="filter-year" name="year">
-            <label for="filter-continent">Kontinens:</label>
-            <select id="filter-continent" name="continent">
-                <option value="all">Mind</option>
-                <option value="europe">Európa</option>
-                <option value="asia">Ázsia</option>
-            </select>
-            <label for="filter-country">Ország:</label>
-            <input type="text" id="filter-country" name="country">
-            <button type="submit">Szűrés</button>
-        </form>
-        <table>
-            <thead>
-                <tr>
-                    <th>Helyezés</th>
-                    <th>Atléta neve</th>
-                    <th>Ország</th>
-                    <th>Legjobb dobás (m)</th>
-                    <th>Év</th>
-                </tr>
-            </thead>
-            <tbody id="ranking-table">
-                <tr>
-                    <td>1</td>
-                    <td>Pars Krisztián</td>
-                    <td>Magyarország</td>
-                    <td>82.69</td>
-                    <td>2012</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Kiss Balázs</td>
-                    <td>Magyarország</td>
-                    <td>83.00</td>
-                    <td>1996</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Gyurkovics Ferenc</td>
-                    <td>Magyarország</td>
-                    <td>80.50</td>
-                    <td>2004</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
 
-    <!-- Lábléc -->
     <footer>
         <p>Kapcsolat: <a href="mailto:info@example.com">kirajok@gmail.com</a></p>
         <p>&copy; 2024 Kalapácsvető Weboldal</p>
