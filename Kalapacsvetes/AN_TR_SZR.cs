@@ -52,7 +52,7 @@ namespace Kalapacsvetes
             Console.WriteLine($"Összeg: {osszeg}");
 
             // e. Szűrés és kiírás
-            Console.WriteLine("Adjon meg egy minimális eredményt:");
+            Console.WriteLine("\nAdjon meg egy minimális eredményt:");
             double minEredmeny = double.Parse(Console.ReadLine());
 
             StreamWriter sw = new StreamWriter("szurt_eredmenyek.txt");
