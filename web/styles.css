@@ -5,6 +5,15 @@ body {
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+    height: 400px;
+}
+
+.kozep{
+    text-align: center;
+}
+
 header {
     background: #333;
     color: white;
@@ -38,11 +47,12 @@ header nav ul li a {
 }
 
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background: #333; 
+    color: white;      
+    text-align: center;   
+    padding: 10px;      
+    bottom: 0;             
+    width: 100%;             
+    z-index: 1000;           
 }
+
