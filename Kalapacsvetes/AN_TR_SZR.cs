@@ -55,18 +55,20 @@ namespace Kalapacsvetes
             Console.WriteLine("Adjon meg egy minimális eredményt:");
             double minEredmeny = double.Parse(Console.ReadLine());
 
-            using (StreamWriter sw = new StreamWriter("szurt_eredmenyek.txt"))
+            StreamWriter sw = new StreamWriter("szurt_eredmenyek.txt");
+
+            foreach (var sportolo in sportolok)
             {
-                foreach (var sportolo in sportolok)
+                if (sportolo.Eredmeny >= minEredmeny)
                 {
-                    if (sportolo.Eredmeny >= minEredmeny)
-                    {
-                        string kimenet = $"{sportolo.Nev} - {sportolo.Eredmeny}";
-                        Console.WriteLine(kimenet);
-                        sw.WriteLine(kimenet);
-                    }
+                    string kimenet = $"{sportolo.Nev} - {sportolo.Eredmeny}";
+                    Console.WriteLine(kimenet);
+                    sw.WriteLine(kimenet);
                 }
             }
+
+            sw.Close();
+
             Console.WriteLine("\nENTER-re leáll");
             Console.ReadLine();
         }
