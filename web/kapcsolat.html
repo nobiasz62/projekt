@@ -9,6 +9,7 @@
 <body>
     <!-- Fejléc -->
     <header>
+        <h1>A világ legjobb férfi kalapácsvetői</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Kezdőlap</a></li>
@@ -18,6 +19,52 @@
             </ul>
         </nav>
     </header>
-    
+    <main>
+        <section>
+            <h1>Kapcsolatfelvétel</h1>
+            <p class="kozep">Van kérdésed vagy javaslatod? Töltsd ki az alábbi űrlapot, és mi hamarosan válaszolunk!</p>
+            
+            <form id="contactForm" action="javascript:void(0)">
+                <label for="name">Név:</label>
+                <input type="text" id="name" name="name" placeholder="Írd be a neved" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="E-mail címed" required>
+                
+                <label for="message">Üzenet:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Írd ide az üzeneted" required></textarea>
+                
+                <button type="submit">Küldés</button>
+            </form>
+            
+            <!-- Üzenet helye -->
+            <div id="feedbackMessage" style="display:none; color: green; margin-top: 20px; text-align: center;">
+                Köszönjük visszajelzésedet!
+            </div>
+        </section>
+
+        <section>
+            <h1>Elérhetőségeink</h1>
+            <ul>
+                <li><strong>E-mail:</strong> <a href="mailto:kirajok@gmail.com">kirajok@gmail.com</a></li>
+                <li><strong>Telefon:</strong> +36 30 987 6543</li>
+                <li><strong>Cím:</strong> Budapest, Gyál, Újhartyán</li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>Kövess minket!</h1>
+            <div class="kozep">
+                <a href="https://www.facebook.com/acs.norbert.98" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/robi_profilja/" target="_blank">Instagram</a> |
+                <a href="https://x.com/crazyy954" target="_blank">X</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kalapácsvető Világ. Minden jog fenntartva.</p>
+    </footer>
+    <script src="javascript.js"></script>
 </body>
 </html>

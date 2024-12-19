@@ -1,25 +1,24 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const athletes = [
-        { name: "John Doe", country: "USA", bestThrow: 80.5, year: 2021 },
-        { name: "Richard Roe", country: "UK", bestThrow: 82.0, year: 2022 },
-        { name: "Mark Smith", country: "Germany", bestThrow: 81.2, year: 2020 },
-    ];
 
-    const rankingTable = document.getElementById("ranking-table");
+// Az űrlap eseménykezelője
+document.addEventListener('DOMContentLoaded', function () {
+    // Az űrlap elem azonosítása
+    const contactForm = document.getElementById('contactForm');
+    const feedbackMessage = document.getElementById('feedbackMessage');
 
-    athletes.forEach((athlete, index) => {
-        const row = document.createElement("tr");
-        row.innerHTML = `
-            <td>${index + 1}</td>
-            <td><a href="#" onclick="showAthleteDetails('${athlete.name}')">${athlete.name}</a></td>
-            <td>${athlete.country}</td>
-            <td>${athlete.bestThrow} m</td>
-            <td>${athlete.year}</td>
-        `;
-        rankingTable.appendChild(row);
+    // Eseménykezelő hozzáadása az űrlaphoz
+    contactForm.addEventListener('submit', function (event) {
+        // Alapértelmezett űrlapküldés megakadályozása
+        event.preventDefault();
+
+        // Üzenet megjelenítése
+        feedbackMessage.style.display = 'block';
+
+        // Az űrlap mezőinek törlése
+        contactForm.reset();
+
+        // Üzenet eltüntetése 5 másodperc múlva
+        setTimeout(function () {
+            feedbackMessage.style.display = 'none';
+        }, 5000);
     });
 });
-
-function showAthleteDetails(name) {
-    alert(`Atléták részletes adatai: ${name}`);
-}
