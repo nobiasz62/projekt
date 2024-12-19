@@ -68,9 +68,10 @@ main section{
     margin-bottom: 32px;
 }
 
-main section h1{
+section h1{
     margin-bottom: 16px;
     color: #444;
+    text-align: center;
 }
 
 article{
