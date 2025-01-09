@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tothr\\OneDrive\\Dokumentumok\\GitHub\\projekt\\Kalapacsvetes\\",
+  "WorkspaceRootPath": "C:\\Users\\acsnor055\\Documents\\GitHub\\projekt\\Kalapacsvetes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66FF4210-3CE0-4927-9765-F44D7E244628}|Kalapacsvetes.csproj|c:\\users\\tothr\\onedrive\\dokumentumok\\github\\projekt\\kalapacsvetes\\an_tr_szr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66FF4210-3CE0-4927-9765-F44D7E244628}|Kalapacsvetes.csproj|c:\\users\\acsnor055\\documents\\github\\projekt\\kalapacsvetes\\an_tr_szr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66FF4210-3CE0-4927-9765-F44D7E244628}|Kalapacsvetes.csproj|solutionrelative:an_tr_szr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66FF4210-3CE0-4927-9765-F44D7E244628}|Kalapacsvetes.csproj|C:\\Users\\tothr\\OneDrive\\Dokumentumok\\GitHub\\projekt\\Kalapacsvetes\\Sportolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66FF4210-3CE0-4927-9765-F44D7E244628}|Kalapacsvetes.csproj|C:\\Users\\acsnor055\\Documents\\GitHub\\projekt\\Kalapacsvetes\\Sportolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66FF4210-3CE0-4927-9765-F44D7E244628}|Kalapacsvetes.csproj|solutionrelative:Sportolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,15 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Sportolo.cs",
-              "DocumentMoniker": "C:\\Users\\tothr\\OneDrive\\Dokumentumok\\GitHub\\projekt\\Kalapacsvetes\\Sportolo.cs",
+              "DocumentMoniker": "C:\\Users\\acsnor055\\Documents\\GitHub\\projekt\\Kalapacsvetes\\Sportolo.cs",
               "RelativeDocumentMoniker": "Sportolo.cs",
-              "ToolTip": "C:\\Users\\tothr\\OneDrive\\Dokumentumok\\GitHub\\projekt\\Kalapacsvetes\\Sportolo.cs",
+              "ToolTip": "C:\\Users\\acsnor055\\Documents\\GitHub\\projekt\\Kalapacsvetes\\Sportolo.cs",
               "RelativeToolTip": "Sportolo.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwBUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -36,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AN_TR_SZR.cs",
-              "DocumentMoniker": "C:\\Users\\tothr\\OneDrive\\Dokumentumok\\GitHub\\projekt\\Kalapacsvetes\\AN_TR_SZR.cs",
+              "DocumentMoniker": "C:\\Users\\acsnor055\\Documents\\GitHub\\projekt\\Kalapacsvetes\\AN_TR_SZR.cs",
               "RelativeDocumentMoniker": "AN_TR_SZR.cs",
-              "ToolTip": "C:\\Users\\tothr\\OneDrive\\Dokumentumok\\GitHub\\projekt\\Kalapacsvetes\\AN_TR_SZR.cs",
+              "ToolTip": "C:\\Users\\acsnor055\\Documents\\GitHub\\projekt\\Kalapacsvetes\\AN_TR_SZR.cs",
               "RelativeToolTip": "AN_TR_SZR.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDYAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T12:27:48.64Z",
               "EditorCaption": ""

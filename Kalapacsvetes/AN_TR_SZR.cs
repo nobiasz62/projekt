@@ -56,11 +56,10 @@ namespace Kalapacsvetes
             double minEredmeny = double.Parse(Console.ReadLine());
 
             StreamWriter sw = new StreamWriter("szurt_eredmenyek.txt");
-<<<<<<< HEAD
-=======
+
 
             foreach (var sportolo in sportolok)
->>>>>>> 3a63240b3c9ea074b9e111b1f3fe450517bc2b44
+
             {
                 if (sportolo.Eredmeny >= minEredmeny)
                 {
